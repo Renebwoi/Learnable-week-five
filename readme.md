@@ -1,4 +1,4 @@
-## This project validates a mastercard using regex expressions
+# This project validates a mastercard using regex expressions
 
 For a number to be a valid mastercard number, it must satisfy these conditions:
 
@@ -8,8 +8,9 @@ If it starts with 51 to 55, the next fourteen digits should be any number betwee
 Else, if it starts with 2221 to 2720, the next twelve digits should be any number between 0-9.
 It should not contain any alphabet or special characters.
 
-# This is how i created the regex
-# for the first regex
+## This is how i created the regex
+
+### for the first regex
 
 ^ represents the starting of the string.
 
@@ -20,7 +21,7 @@ It should not contain any alphabet or special characters.
  $ represents the ending of the string.
 
 
-# For the second regex:
+### For the second regex:
 
 ^ represents the starting of the string.
 
